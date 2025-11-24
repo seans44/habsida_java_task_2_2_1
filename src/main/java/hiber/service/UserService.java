@@ -8,5 +8,5 @@ import java.util.Optional;
 public interface UserService {
     void add(User user);
     List<User> listUsers();
-    Optional<User> findUserByCarModel(String carModel, int series);
+    Optional<User> findUserByCar(String carModel, int series);
 }

@@ -28,8 +28,8 @@ public class UserServiceImp implements UserService {
    }
 
    @Override
-   public Optional<User> findUserByCarModel(String carModel, int series) {
-      return userDao.findUserByCarModel(carModel, series);
+   public Optional<User> findUserByCar(String carModel, int series) {
+      return userDao.findUserByCar(carModel, series);
    }
 
    // что-то надо сделать
